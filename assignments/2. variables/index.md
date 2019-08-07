@@ -75,12 +75,12 @@ else {
 	alert("makr is older");
 }
 // Check who is younger
+
 if (johnAge>markAge) {
 	alert ("mark is younger");
 }
 	else {
-	alert ("john is younger")
-
+	alert ("john is younger");
 
 }
 // Check if their age is equal
