@@ -66,6 +66,16 @@ for (let i=1; i<=10; i++) {
 // 6, 7, 8, 9, 10
 
 // Your code goes here
+var s = "";
+var b = "";
+for (var i=1; i<=5; i++) {
+s += i + ", ";
+}
+console.log(s);
+for (var j=6; j<=10; j++) {
+b += j + ", ";
+} 
+console.log(b);
 ```
 
 6. 🎖Use a while loop to add up the numbers 1 to 20.
