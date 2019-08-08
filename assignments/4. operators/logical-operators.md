@@ -43,8 +43,8 @@ let isGuestOneVeg = false;
 let isGuestTwoVeg = false;
 // Your code goes here
 isGuestOneVeg && isGuestTwoVeg && alert("Only offer up vegan dishes");
-isGuestOneVeg || isGuestTwoVeg || alert("Make sure to offer up some vegan options");
-isGuestOneVeg || isGuestTwoVeg || alert("Offer up anything on the menu");
+(isGuestOneVeg || isGuestTwoVeg) && alert("Make sure to offer up some vegan options");
+(isGuestOneVeg || isGuestTwoVeg) && alert("Offer up anything on the menu");
 
 
 ```
